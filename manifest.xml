@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <OfficeApp
   xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -13,9 +13,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Export Thread" />
   <Description DefaultValue="Export the whole email conversation as a formatted Markdown file." />
-  <IconUrl DefaultValue="https://BASE_URL/assets/icon-64.png" />
-  <HighResolutionIconUrl DefaultValue="https://BASE_URL/assets/icon-128.png" />
-  <SupportUrl DefaultValue="https://BASE_URL/" />
+  <IconUrl DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-64.png" />
+  <HighResolutionIconUrl DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-128.png" />
+  <SupportUrl DefaultValue="https://sakethwithanh.github.io/outlook-extension/" />
 
   <AppDomains>
     <AppDomain>https://login.microsoftonline.com</AppDomain>
@@ -34,7 +34,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://BASE_URL/src/taskpane.html" />
+        <SourceLocation DefaultValue="https://sakethwithanh.github.io/outlook-extension/src/taskpane.html" />
         <RequestedHeight>350</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -90,13 +90,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://BASE_URL/assets/icon-16.png" />
-        <bt:Image id="icon32" DefaultValue="https://BASE_URL/assets/icon-32.png" />
-        <bt:Image id="icon80" DefaultValue="https://BASE_URL/assets/icon-80.png" />
+        <bt:Image id="icon16" DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-16.png" />
+        <bt:Image id="icon32" DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-32.png" />
+        <bt:Image id="icon80" DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="taskpaneUrl" DefaultValue="https://BASE_URL/src/taskpane.html" />
-        <bt:Url id="functionFile" DefaultValue="https://BASE_URL/src/commands.html" />
+        <bt:Url id="taskpaneUrl" DefaultValue="https://sakethwithanh.github.io/outlook-extension/src/taskpane.html" />
+        <bt:Url id="functionFile" DefaultValue="https://sakethwithanh.github.io/outlook-extension/src/commands.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Export" />
