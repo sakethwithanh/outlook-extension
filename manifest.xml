@@ -13,9 +13,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Export Thread" />
   <Description DefaultValue="Export the whole email conversation as a formatted Markdown file." />
-  <IconUrl DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-64.png" />
-  <HighResolutionIconUrl DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-128.png" />
-  <SupportUrl DefaultValue="https://sakethwithanh.github.io/outlook-extension/" />
+  <IconUrl DefaultValue="https://outlook-extension-phi.vercel.app/assets/icon-64.png" />
+  <HighResolutionIconUrl DefaultValue="https://outlook-extension-phi.vercel.app/assets/icon-128.png" />
+  <SupportUrl DefaultValue="https://outlook-extension-phi.vercel.app/" />
 
   <AppDomains>
     <AppDomain>https://login.microsoftonline.com</AppDomain>
@@ -34,7 +34,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://sakethwithanh.github.io/outlook-extension/src/taskpane.html" />
+        <SourceLocation DefaultValue="https://outlook-extension-phi.vercel.app/src/taskpane.html" />
         <RequestedHeight>350</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -90,13 +90,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-16.png" />
-        <bt:Image id="icon32" DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-32.png" />
-        <bt:Image id="icon80" DefaultValue="https://sakethwithanh.github.io/outlook-extension/assets/icon-80.png" />
+        <bt:Image id="icon16" DefaultValue="https://outlook-extension-phi.vercel.app/assets/icon-16.png" />
+        <bt:Image id="icon32" DefaultValue="https://outlook-extension-phi.vercel.app/assets/icon-32.png" />
+        <bt:Image id="icon80" DefaultValue="https://outlook-extension-phi.vercel.app/assets/icon-80.png" />
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="taskpaneUrl" DefaultValue="https://sakethwithanh.github.io/outlook-extension/src/taskpane.html" />
-        <bt:Url id="functionFile" DefaultValue="https://sakethwithanh.github.io/outlook-extension/src/commands.html" />
+        <bt:Url id="taskpaneUrl" DefaultValue="https://outlook-extension-phi.vercel.app/src/taskpane.html" />
+        <bt:Url id="functionFile" DefaultValue="https://outlook-extension-phi.vercel.app/src/commands.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Export" />
