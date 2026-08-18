@@ -129,3 +129,20 @@ The account needs an actual Outlook mailbox.
 Everything about the file lives in `src/format.js` — `buildMarkdown()` for the
 layout, `buildFileName()` for the name. Set `NEWEST_FIRST` in `src/config.js`
 to flip message order.
+
+## Why MSAL is vendored
+
+`vendor/msal-browser.min.js` is a copy of `@azure/msal-browser` (v5.18.0),
+taken from the npm package's `lib/` folder.
+
+Microsoft stopped publishing MSAL.js to a CDN at v3. The only supported way to
+use it without a bundler is to serve the lib file yourself, so it is committed
+here rather than fetched at runtime. It is a UMD build and exposes `window.msal`.
+
+To update it:
+
+```bash
+npm pack @azure/msal-browser
+tar -xzf azure-msal-browser-*.tgz
+cp package/lib/msal-browser.min.js vendor/
+```

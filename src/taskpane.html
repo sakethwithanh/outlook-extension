@@ -6,7 +6,8 @@
   <title>Export Thread</title>
   <link rel="stylesheet" href="./taskpane.css" />
   <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
-  <script src="https://alcdn.msauth.net/browser/3.28.1/js/msal-browser.min.js"></script>
+  <!-- MSAL v3+ is not on any CDN; Microsoft removed it. Served locally from vendor/. -->
+  <script src="../vendor/msal-browser.min.js"></script>
 </head>
 <body>
   <main class="pane">
