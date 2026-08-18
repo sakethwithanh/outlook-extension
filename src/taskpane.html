@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Export Thread</title>
+  <link rel="stylesheet" href="./taskpane.css" />
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="https://alcdn.msauth.net/browser/3.28.1/js/msal-browser.min.js"></script>
+</head>
+<body>
+  <main class="pane">
+    <h1>Export Thread</h1>
+
+    <p id="subject" class="subject">Loading…</p>
+
+    <div id="status" class="status" role="status" aria-live="polite">Starting…</div>
+
+    <div class="actions">
+      <button id="btn-export" type="button" class="primary" disabled>Export as Markdown</button>
+      <button id="btn-copy" type="button" class="secondary" disabled>Copy to clipboard</button>
+    </div>
+
+    <details id="preview-wrap" hidden>
+      <summary>Preview</summary>
+      <textarea id="preview" readonly spellcheck="false"></textarea>
+    </details>
+
+    <p class="hint">
+      Select any message in a conversation, then export. All replies still in your
+      mailbox are included.
+    </p>
+  </main>
+
+  <script type="module" src="./taskpane.js"></script>
+</body>
+</html>
