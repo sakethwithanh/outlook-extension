@@ -1,0 +1,2 @@
+# Keep the vendored MSAL bundle byte-identical to the npm original.
+vendor/** -text
