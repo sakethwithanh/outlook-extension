@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------
 
 // Application (client) ID from your Azure app registration.
-export const CLIENT_ID = "REPLACE_WITH_AZURE_CLIENT_ID";
+export const CLIENT_ID = "bcfe18b3-e9c2-4b80-8179-b60b0132b6a7";
 
 // "common"        -> work/school AND personal outlook.com accounts
 // "organizations" -> work/school only
